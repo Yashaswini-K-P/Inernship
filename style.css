@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.navbar{
+    background-color:rgb(6, 167, 6);
+}
+.navbar a img{
+    height:3rem;
+    width:3rem;
+    border-radius:50%;
+}
+.hero {
+  position: relative;
+  color: rgb(6, 167, 6);
+  padding: 100px 0;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  z-index: 1;
+  background: url('hero.webp') no-repeat center center/cover;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* black with 80% opacity */
+  z-index: -1;
+}
+
+
+.lead{
+    color:white;
+}
+.hero .container a{
+    background-color:rgb(6, 167, 6);
+    color:white;
+}
+
+.form-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
